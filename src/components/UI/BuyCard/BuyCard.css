@@ -1,0 +1,64 @@
+.buyCard {
+    width: 633px;
+    border-radius: 30px;
+    background-color: #fafafa;
+    height: 218px;
+    display: flex;
+    padding: 18px;
+    margin: 20px 0;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-column {
+    flex: 0.8 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.third-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: 600;
+}
+
+.count-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.sum {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.subTitle {
+    margin: 0;
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-img {
+    max-width: 140px;
+    width: 100%;
+}

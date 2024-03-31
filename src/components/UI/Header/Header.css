@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding-bottom: 14px;
+    line-height: 30.48px;
+    transition: .2s linear;
+}
+
+.header-title:hover {
+    opacity: 0.5;
+}
+
+.right {
+    margin: 0;
+}
+
+.left {
+    margin: 0;
+}
+
+h1 {
+    color: #101010;
+}
+
+.logo {
+    text-decoration: none;
+}

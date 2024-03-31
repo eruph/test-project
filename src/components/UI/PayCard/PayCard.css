@@ -1,0 +1,38 @@
+.payCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 348.98px;
+    width: 100%;
+    height: 114px;
+    margin: 20px 0;
+    background-color: #fafafa;
+    border-radius: 30px;
+}
+
+.first-line {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+
+.payButton {
+    background: none repeat scroll 0 0 transparent;
+    border: none;
+    cursor: pointer;
+    color: #fafafa;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 348.98px;
+    width: 100%;
+    height: 65px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.final-sum {
+    font-size: 15px;
+    font-weight: 600;
+}
